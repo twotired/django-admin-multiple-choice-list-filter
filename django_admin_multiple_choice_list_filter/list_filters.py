@@ -49,4 +49,5 @@ class MultipleChoiceListFilter(admin.SimpleListFilter):
                 'include_query_string': amend_query_string(include=str(lookup)),
                 'exclude_query_string': amend_query_string(exclude=str(lookup)),
                 'display': title,
+                'reset': False,                
             }
